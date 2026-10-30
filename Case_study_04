@@ -1,0 +1,12 @@
+# employee salary
+basic = int(input("Enter basic salary: "))
+allowance = int(input("Enter allowance: "))
+overtime = int(input("Enter overtime amount: "))
+
+gross = basic + allowance + overtime
+deduction = gross * 10 / 100
+net = gross - deduction
+
+print("Gross Salary =", gross)
+print("Deduction =", deduction)
+print("Net Salary =", net)
